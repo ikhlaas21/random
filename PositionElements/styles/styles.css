@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main {
+    background-color: antiquewhite;
+    min-height: 80vh;
+    min-width: 80vw;
+}
+header{
+    min-width:100% ;
+    min-height:100px ;
+    position: fixed;
+    background-color: aqua;
+ 
+}
+#fixed{
+    position: fixed;
+    background-color: rgb(112, 209, 161);
+}
+#parent{
+    background-color: rgb(151, 123, 190);
+    width: 350px;
+    height: 350px;
+    position: relative;
+    right: -250px;
+    bottom: -50px;
+}
+#child{
+    background-color: rgb(243, 84, 84);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 120px;
+    left: 120px;
+    
+
+}
+#class1{
+    background-color: blueviolet;
+    top: 10px;
+}

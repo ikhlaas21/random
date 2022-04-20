@@ -1,0 +1,32 @@
+header{
+    width: 100vw;
+    height: 150px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+}
+img{
+    width: 5em;
+    height: 5em;
+}
+nav ul{
+    display: inline-flex;
+    list-style: none;
+}
+ul > li {
+    margin-right: 10px;
+}
+@media screen and (max-width:900px) {
+    #logo{
+        display: none;
+    }
+    header{
+        position: absolute;
+    }
+    nav{
+        position: block;
+        left: 0;
+        margin: left 10px; ;
+    }
+}

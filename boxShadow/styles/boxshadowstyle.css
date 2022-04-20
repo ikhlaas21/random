@@ -1,0 +1,6 @@
+#box1 {
+    width: 200px;
+    height: 200px;
+    background-color: darkolivegreen;
+    box-shadow: 1vw 1vw 4vw rgb(23, 23, 12);
+}

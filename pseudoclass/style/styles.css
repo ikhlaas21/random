@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a:link{
+    color: blueviolet;
+}
+a:visited{
+    color: aliceblue;
+    background-color:green ;
+}
+a:hover{
+    color: rgb(50, 91, 127);
+    font-size: large;
+}
+a:active{
+    color: bisque;
+}
+a:focus{
+    color: darkblue;
+}
+
+div:nth-last-child(2){
+    background-color: darksalmon;
+}
+div:first-child{
+    background-color: firebrick;
+}
+p:first-line{
+    background-color: darkslateblue;
+}
+p::first-letter{
+                font-size: 100px;
+                padding-right: 2px;
+               }
+#lorem::before{
+    content: url(../images/Shigatsu-wa-Kimi-no-Uso-1140x720.jpg) ;
+
+}
+h1{
+    font-family: 'Libre Baskerville', serif;
+}

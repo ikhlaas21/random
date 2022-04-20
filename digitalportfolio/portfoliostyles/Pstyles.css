@@ -17,7 +17,7 @@ footer {
     color:blanchedalmond;
 }
 main {
-    min-height: 120vh;
+    min-height: 1000vh;
 }
 /*header*/
 header, footer {
@@ -37,6 +37,7 @@ header, footer {
 #i1{
     color: blanchedalmond;
     background-color:#800000;
+    margin-top: 130px;
 
 }#i2{
     color: blanchedalmond;
@@ -120,11 +121,25 @@ h2{
     background-image: url("../golden-clouds-duncan1890.jpg");
     background-position: center;
     background-size: cover;
+    height: 650px;
 }
 #Landing{
     text-align: center;
     font-size: xx-large;
+    border: 2px solid rgb(7, 7, 7);
+    width: 50%;
+    margin: auto;
+    box-shadow: 1vw 1vw 4vw rgb(80, 1, 1);
+    border-radius: 0%;
+    border-style:inherit;
+    padding: 75px;
     
+}
+#aspire{
+    font-size: xx-large;
+}
+#ikhlaas{
+    font-size: 200%;
 }
 
 /* navigation element */
@@ -139,3 +154,36 @@ ul {
     list-style: none;
     padding-right: 10px;
 }/*
+*/
+
+#h1about{
+    font-size: 80px;
+    height: 120px;
+    border: 2px solid maroon;
+    background-color: maroon;
+    color:blanchedalmond ;
+}
+#h1about{
+    /* padding-left: 130px; */
+    padding-top: 30px;
+    text-align: center;
+}
+.ocean{
+    background: url("../ocean2.jpg") no-repeat center center/cover;
+    height: 1000px;
+}
+#h2aboutme{
+    font-size: 50px;
+    border: 5px solid black;
+    box-shadow: 1vw 1vw 4vw rgb(101, 162, 218);
+    margin: 200px 120px 40px 120px;
+    border-radius: 0%;
+    border-style:inherit;
+    width: 250px;
+    
+}
+.about-me-con{
+    display: flex;
+    margin-left: 10%;
+}
+

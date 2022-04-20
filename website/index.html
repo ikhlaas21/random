@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+    content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Website</title>
+    <style>
+        .Image{
+            text-align: center;
+        }
+        .video {
+            text-align: center;
+        }
+        form  {
+            text-align: center; 
+            margin: auto;
+        }
+    </style>
+</head>
+<header>
+<nav>
+    <ul>
+    <li>
+        <a href="#headings">Heading</a>
+    </li>
+    <li>
+        <a href="#paragraphs">Paragraph</a>
+    </li>
+    <li>
+        <a href="#media">Media</a>
+    </li>
+    <li>
+        <a href="#form">Form</a>
+    </li>
+    <li>
+        <a href="#table">Table</a>
+    </li>
+    <li>
+        <a href="#other">Other</a>
+    </li>
+    </ul>
+</nav>
+</header>
+<body style="background-color: blanchedalmond;">
+<main>
+        <!-- Heading -->
+        <section>
+            <h1 id="headings">Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </section>
+       <!-- Paragraph -->
+        <section>
+            <p id="paragraphs">Lorem ipsum dolor sit 
+            amet consectetur <strong>adipisicing </strong> elit. Saepe adipisci 
+            molestias reiciendis ab provident! Nobis distinctio m
+            odi nisi expedita.<em> Iste, ratione architecto at numquam 
+            recusandae necessitatibus non magnam ipsum voluptatum!</em>
+            </p>
+        </section>
+    <!-- Image and Video -->
+        <section>
+            <div class="Image" id="media">
+                <img src="https://www.datocms-assets.com/46272/1633199491-1633199490440.jpg?fit=max&fm=jpg&w=1000" alt="Nature" width="720" height="480">
+            </div>
+            <div class="video">
+            <iframe width="923" height="519" src="https://www.youtube.com/embed/-DGIqaI_5IA" title="YouTube video player"
+             frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>"
+            </div>
+        </section>
+        <!-- Form -->
+        <section>
+            <form id="form">
+                <div>
+                    <label>Name :</label>
+                    <input type="text"
+                    placeholder="Enter Your Name"
+                    required>
+                </div>
+                <div>
+                  <label>Surname :</label>
+                  <input type="text"
+                  placeholder="Enter Your Surname"
+                  required>
+                </div>
+                <div>
+                  <label>Age:</label>
+                  <input type="text"
+                  placeholder="Enter Your Age"
+                  required>
+                </div>
+            
+                <div>
+                    <label>Password:</label>
+                    <input type="password"
+                    placeholder= Enter your password">
+                </div>    
+                <div>
+                    <label>Gender: </label>
+                    <span>Male</span>
+                    <input type="radio"name="gender">
+                    <span>Female</span>
+                    <input type="radio"name="gender">
+                </div>    
+                <div>
+                    <label>Subjects:</label>
+                    <span>HTML5</span>
+                    <input type="checkbox">
+                    <span>CSS3</span>
+                    <input type="checkbox">
+                    
+                </div>
+                <div>
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+                <div>
+                    <label>Choose a file</label>
+                    <input type="file">
+                </div>
+                <div>
+                    <label>Url</label>
+                    <input type="url">
+                </div>
+                <div>
+                    <label>Country</label>
+                    <select name="Country">
+                        <option value="france">
+                           France
+                        <option value="south africa">
+                            South Africa
+                        </option>
+                    </select>
+                </div>
+        </section>
+        <div>
+            <button type="Submit">Submit</button>
+        </div>
+    </form>
+        <hr>
+        <textarea cols="30" rows="10">
+                i love
+                programming
+            </textarea>
+            <blockquote>
+                This is a quote
+            </blockquote>
+            <h3>unordered List</h3>
+            <ul>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+                <li>list 4</li>
+            </ul>
+    
+            <h3>Ordered List</h3>
+            <ol>
+                <li>list 1</li>
+                <li>list 2</li>
+                <li>list 3</li>
+                <li>list 4</li>
+            </ol>
+        <!-- Table -->
+        <table border="2" id="table">
+            <thead>
+                <th>Name</th>
+                <th>Surname</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Peter</td>
+                    <td>Peterson</td>
+                </tr>
+            </tbody>
+        </table>  
+        
+</main>
+<footer>
+    <p id="other">Copyright &copy; 2022</p>
+</footer>
+
+    
+</body>
+
+
+
+</html>

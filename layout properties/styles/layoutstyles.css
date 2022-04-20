@@ -1,0 +1,32 @@
+.container{
+    width: 90vw;
+    height: 100vh;
+    background-color: bisque;
+    margin: auto;
+    display: grid;
+    grid-template-columns:300px 500px;
+    grid-template-rows: auto auto;
+
+
+    /* flex-direction:row;
+    justify-content: space-around;
+    align-items: center; */
+    
+
+}
+#i1{
+    background-color: orange;
+}#i2{
+    background-color: blue;
+}
+#i3{
+    color: rgb(226, 43, 43);
+    background-color: blueviolet;
+}
+#i4{
+    background-color: aqua;
+}
+.items {
+width: 100px;
+height: 250px;
+}

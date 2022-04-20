@@ -1,0 +1,26 @@
+div {
+  /*  width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    margin: left 0%;
+    border-radius: 180px 
+    */
+} 
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    margin-top: 10px;
+    margin-left: 50%;
+
+}
+#box2{
+    background-color: blue;
+}
+.curve{
+    border-radius: 20px;
+}

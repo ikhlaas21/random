@@ -1,0 +1,30 @@
+Ikhlaas
+Rawoot
+
+Answers:
+1.Element selector
+ID, use to create a reference or identity
+class selector, groups elements together
+attribute selector
+2.box>p
+3.allows to be styled
+4.red green blue alpha
+5.background-image: url()
+6.changes color
+7.cm, mm, px
+8.em, vh, vw
+9.text decoration:none
+10.display:inline-flex
+11.UL- unordered list
+   OL- ordered list
+UL is a list that makes use of bullets and OL makes use of numbers.
+12.<br> or line-height value
+13.font-family
+font-size
+14.it is the design or layout of the box.the margin space outside element and padding space inside
+examples; shadow,padding,color, border
+15.
+16.a,strong,img
+absolute, fixed and doesnt change
+advanced selector
+
