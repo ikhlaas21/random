@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width: 15em;
+    height: auto;
+    display: block;
+    margin: 40px auto;
+    border: 10px solid pink;
+    /* border-radius: 20%; */
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 2px 1px 4px black, 8
+   px 1px 8px rgb(153, 51, 51);
+}
+#container{
+    width: 22vw;
+    height: 50vh;
+    background-color: bisque;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position:relative;
+    padding: 30px;
+}
+#logo, #description{
+    position: absolute;
+}
+#container , #logo{
+    top: 0;
+    left: 0;
+}
+#container, #description{
+    bottom: 0;
+}

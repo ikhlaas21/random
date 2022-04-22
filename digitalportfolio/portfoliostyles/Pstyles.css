@@ -223,6 +223,10 @@ ul {
     width: 250px;
     
 }
+#paboutme{
+    padding-left: 50px;
+    padding-right: 50px;
+}
 .about-me-con{
     display: flex;
     margin-left: 10%;
@@ -278,9 +282,16 @@ ul {
 }
 #college{
     font-size: 35px;
+    margin-top: 15px;
 }
 #paracollege{
     font-size: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 1px;
 }
 #edu{
     border: 5px solid black;
@@ -299,6 +310,16 @@ ul {
     border-radius: 0%;
     border-style:inherit;
     width: 460px;
+}
+#employ{
+    font-size: 35px;
+    margin-top: 15px;
+}
+#retail{
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
 }
 
 

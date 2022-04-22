@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    background-color: rgba(177, 211, 241, 0.2);
+    width: 200px;
+    height: 250px;
+    border-radius: 25%;
+    margin: 20px auto;
+}
+/*
+- Transition do provide ways to control the speed of our animation when changing CSS properties.
+- Transform-style: This property will verify
+if the children of an element are positioned
+in the 3d space or 2d.
+The value: preserve-3d state that the children
+of an element should be placed in the 3d - space
+*/
+#card{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+/* Will focus on horizontal flip card */
+/*
+It easy to rotate an html element by using
+the rotate() function from transform
+*/
+.container:hover #card{
+    transform: rotateX(180deg);
+}
+/* Positioning card front and card back*/
+#front, #back {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    border-radius: 20%;
+    /* Have to cover most of the browsers
+    Defines whether or not the back face of an element should be visible when facing the
+    user
+    */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+}
+#front{
+    background-color: darkgoldenrod;
+}
+#back{
+    background-color: rgb(79, 68, 47);
+    color: white;
+    transform: rotateX(180deg);
+}
+/* #logo{
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    transition: transform 1s ease-in-out;
+
+}
+#logo:hover{
+    transform: translate(-100px,90px);
+    transform: scale(2);perspective: 2px;
+    transform: rotate(1440deg);
+} */
+/* #container{
+    width: 50vw;
+    height: 100vh;
+    position: relative;
+    margin-left: 20%;
+    overflow: hidden;
+
+
+} 
+#container figure{
+    width: 300%;
+    position: absolute;
+    left: 0;
+    animation: 1s slide infinite;
+}
+#container figure img{
+    width: 25%;
+    float: left;
+}
+/* Animation */
+/* @keyframes slide {
+    0%{
+        left: 0;
+    }
+    50%{
+        left: -50%;
+    }
+    80%{
+        left: -100%;
+    }
+    100%{
+        left: 0;
+    }
+}  */
+
+    /* margin: 0;
+    padding: 0;
+}
+#box {
+    width: 200px;
+    height: 250px;
+    /* (top and bottom) - (let and right)*/
+    /* margin: 20px auto;
+    transition: rotateY(180deg) 1s;
+}
+#box ~ img {
+    backface-visibility: hidden;
+}
+#box:hover {
+    transform: rotateY(180deg);
+} */
+ 
