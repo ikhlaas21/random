@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./portfoliostyles/Pstyles.css">
+    <script src="https://kit.fontawesome.com/7c333af6fe.js" crossorigin="anonymous"></script>
     <title>Digital Portfolio</title>
 </head>
 <body>
     <header>
-        <h1>My Digital Portfolio</h1>
+            <div class="content">
+                <h1 id="MDP">My Digital Portfolio</h1>
+                <h1 id="MDP">My Digital Portfolio</h1>
+            </div>
+
         <nav id="menu">
             <div class="container">
+                <div class="items" id="i0">
+                    <a id="maroon" href="#MDP">Home</a>
+                </div>
                 <div class="items" id="i1">
                     <a id="blanch" href="#About">About</a>
                     <ul class="sub1">
@@ -137,7 +145,7 @@
                     </ol>
                     <h2 id="employ">~ Self-Employment ~</h2>
                     <p id="retail">In December of 2019 my brother and I opened up our own 3D Printing Business.</p>
-                    <img id="GIF" src="../digitalportfolio/rnrgif.gif" alt="GIF">
+                    <img id="GIF" src="rnrgif.gif">
                 </div>
             </div>
         </section>
@@ -145,9 +153,53 @@
             <div id="Projects">
                 <h1 id="h1projects">Projects</h1>
             </div>
+            <div id="wrapper">
+                <!-- Card 1 -->
+                <div  class="cardcontainer">
+                    <div id="card2">
+                        <div id="front2">
+                            <img id="calcsize" src="CALCULATORSNIP.JPG">
+
+                        </div>
+                        <div id="back2">
+                            <h1>My Calculator</h1>
+                            <br>
+                            <p>
+                                Coded using HTML and CSS
+                            </p>
+                            <br>
+                            <a href="https://github.com/ikhlaas21/Calculator"><i class="fa-brands fa-github"></i></a>
+                            <br>
+                            <a href=""><img id="netlify"  src="netlify.svg" width="120px" height="120px" alt="net"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Card 2 -->
+                <div class="cardcontainer">
+                    <div id="card2">
+                        <div id="front2">
+                            <img id="calcsize" src="Screenshot 2022-04-22 113139.jpg">
+                        </div>
+                        <div id="back2">
+                            <h2>My Rainbow</h2>
+                            <br>
+                            <p>
+                                Coded using HTML and CSS
+                            </p>
+                            <br>
+                            <a href="https://github.com/ikhlaas21/Rainbow"><i class="fa-brands fa-github"></i></a>
+                            <br>
+                            <a href=""><img id="netlify" src="netlify.svg" width="120px" height="120px" alt="net"></a>
+                            
+                        </div>
+                    </div>
+                </div>
         </section>
-        <section id="Contact">
-            <h1>Contact</h1>
+        <section class="silverwater">
+            <div id="Contact">
+                <h1 id="h1contact">Contact</h1>
+
+            </div>
         </section>
     </main>
     <footer>
